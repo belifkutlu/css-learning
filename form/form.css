@@ -1,0 +1,23 @@
+.name-label{
+    margin-right: 30px;
+}
+.phone-input{
+    margin-left: 1px;
+}
+label{
+    display: block;
+    margin-top: 20px;
+}
+input{
+    display: block;
+}
+input [type="text"]
+input [type="email"]
+input [type="tel"],
+select,
+textarea{
+    width: 260px;
+}
+.buttons{
+    margin-top: 20px;
+}
