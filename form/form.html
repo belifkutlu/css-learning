@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form ve Elemanları</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <form action="https://httpbin.org/post" method="post"> 
+        <input type="hidden" value="s-500" name="product" > 
+       <div>
+        <label class="name-label" for="adi">Ad</label>
+        <input id="name" type="text" name="name" required>
+       </div>
+       <div>
+        <label class="name-label" for="soyad">Soyad</label>
+        <input id="soyad" type="text" name="last-name" disabled value="kutlu" >
+       </div>
+       <div>
+        <label>Telefon <input name="phone" required class="phone-input" type="tel"/></label>
+       </div>
+       <div>
+        <label for="adi">E-mail</label>
+        <input id="adi" name="mail" required type="email">
+       </div>
+       <div>
+           <label for="mesaj">Mesaj</label>
+           <textarea name="message" id="mesaj" rows="10"></textarea>
+       </div>
+       <div>
+           <label for="sehir">Şehir</label>
+           <select name="city" id="sehir">
+               <option value="34">istanbul</option>
+               <option selected value="35">izmir</option>
+           </select>
+       </div>
+       <div>
+           <label for="renk">Sevdiginiz Renk</label>
+           <input type="radio" value="kirmizi" name="renk"> Kirmizi <input checked type="radio" value="yesil" name="renk"> Yesil
+       </div>
+       <div class="buttons">
+           <button type="reset">Sifirla</button>
+           <button type="submit">Gonder</button>
+       </div>
+    </form>
+</body>
+</html>
