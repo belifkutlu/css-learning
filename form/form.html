@@ -5,42 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form ve Elemanları</title>
-    <link rel="stylesheet" href="./form.css">
+    <link rel="stylesheet" href="./form2.css">
 </head>
 <body>
     <form action="https://httpbin.org/post" method="post"> 
         <input type="hidden" value="s-500" name="product" > 
-       <div>
-        <label class="name-label" for="adi">Ad</label>
-        <input id="name" type="text" name="name" required>
+       <div class="form-row">
+        <label class="name-label" for="name">Ad</label>
+        <input id="name" type="text" name="name" required placeholder="Elif" >
        </div>
-       <div>
+       <div class="form-row">
         <label class="name-label" for="soyad">Soyad</label>
-        <input id="soyad" type="text" name="last-name" disabled value="kutlu" >
+        <input id="soyad" type="text" name="last-name" disabled value="Kutlu" >
        </div>
-       <div>
+       <div class="form-row">
         <label>Telefon <input name="phone" required class="phone-input" type="tel"/></label>
        </div>
-       <div>
+       <div class="form-row">
         <label for="adi">E-mail</label>
         <input id="adi" name="mail" required type="email">
        </div>
-       <div>
+       <div class="form-row">
            <label for="mesaj">Mesaj</label>
            <textarea name="message" id="mesaj" rows="10"></textarea>
        </div>
-       <div>
-           <label for="sehir">Şehir</label>
-           <select name="city" id="sehir">
+       <div class="form-row">
+           <label for="city">Şehir</label>
+           <select name="city" id="city">
                <option value="34">istanbul</option>
                <option selected value="35">izmir</option>
            </select>
        </div>
-       <div>
-           <label for="renk">Sevdiginiz Renk</label>
-           <input type="radio" value="kirmizi" name="renk"> Kirmizi <input checked type="radio" value="yesil" name="renk"> Yesil
+       <div class="form-row">
+           <h3>Sevdiginiz renk</h3>
+           <div class="radio-container" >
+            <label for="red"> <input type="radio" value="red" name="color" id="red">Red</label>
+            <label for="green">  <input checked type="radio" value="green" name="color" id="green">Green</label>
+            <label for="blue">  <input checked type="radio" value="blue" name="color" id="blue">Blue</label>
+
+           </div>
        </div>
-       <div class="buttons">
+       <div class="form-row">
            <button type="reset">Sifirla</button>
            <button type="submit">Gonder</button>
        </div>
