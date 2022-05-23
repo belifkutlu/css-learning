@@ -1,0 +1,15 @@
+body {
+    color: aqua;
+}
+
+.box {
+    color: yellow;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(18, 205, 99);
+    /* border-width: 10px;
+    border-style: dashed;
+    border-color: rgb(130, 58, 219); */
+
+    border: 10px dashed white;
+}

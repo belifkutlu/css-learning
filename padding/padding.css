@@ -1,0 +1,26 @@
+.container {
+    padding: 20px;
+background-color: blue;
+}
+
+.box {
+    /* 4lu kullanim
+    padding-top:  20px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 40px; */
+    padding: 20px 30px 40px 10px;
+    background-color: red
+}
+
+/* 3lu kullanim
+    padding: 20px 30px 40px 30px;
+ */
+
+ /* 2li kullanim
+    padding: 20px 30px 20px 30px;
+ */
+
+  /* tekli kullanim
+    padding: 20px;
+ */

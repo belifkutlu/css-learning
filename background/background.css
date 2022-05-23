@@ -1,0 +1,14 @@
+body {
+    background-image: url(pattern.jpeg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+}
+
+body {
+    font: italic bold 20px/1.4 sans-serif;
+    background: blue url(pattern.jpeg) center top no-repeat;
+    height: 100vh;
+    
+}
