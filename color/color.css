@@ -1,0 +1,33 @@
+:root {
+    --a: rgb(120, 9, 9, .5);
+}
+
+.container {
+    padding: 20px;
+    width: 400px;
+    border: 8px solid currentColor;
+    font-size: 18px;
+    /* color: #ff4455; */
+    /* color: #f45; */
+    color: var(--a);
+}
+
+svg {
+    stroke: currentColor;
+}
+
+p {
+    padding: 30px;
+    color: white;
+    background: rgb(221, 190, 190);
+}
+
+/* http://www.colors.commutercreative.com/grid/ */
+
+button {
+    border: 2px solid;
+    margin-top: 20px;
+    padding: 10px;
+    color: inherit;
+    background-color: transparent;
+}
