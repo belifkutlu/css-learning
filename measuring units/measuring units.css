@@ -1,0 +1,33 @@
+html {
+    font-size: 20px;
+}
+body {
+    margin: 0;
+}
+
+.box {
+    font-size: 120px;
+    background-color: red;
+    width: 50%;
+    height: 1em;
+    border: 1rem solid green;
+}
+
+
+.container {
+    overflow: hidden;
+    font-size: 16px;
+    background-color: #ccc;
+    width: 100vmax;
+    height: 100vmin;
+    /* width: 100vw;
+    height: 100vh; */
+}
+
+.container p:nth-child(2) {
+font-size: 2em;
+}
+
+.container p:nth-child(3) {
+    font-size: 3em;
+    }
