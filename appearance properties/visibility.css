@@ -1,0 +1,21 @@
+/* 
+img:nth-child(1) {
+    visibility: hidden;
+}
+
+img:nth-child(2) {
+ display: none;
+}
+
+img:nth-child(3) {
+  opacity: .1;
+   } */
+
+   img {
+       opacity: 0;
+       animation: 1s show both;
+   }
+
+   @keyframes show { 
+   100% { opacity: 1;}
+   }
