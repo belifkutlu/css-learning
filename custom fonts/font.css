@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Medium.woff2') format('woff2'),
+        url('Lato-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
